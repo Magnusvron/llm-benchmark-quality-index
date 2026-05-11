@@ -1,0 +1,64 @@
+benchmark_id,name,primary_dimension,subcategory,track,year,citation_key,url,in_bqai_sample
+1,WSC,D1,Logical and Abstract,Core,2012,Levesque2012,https://www.aaai.org/ocs/index.php/KR/KR12/paper/view/4492,No
+2,SQuAD,D2,Reading Comprehension,Core,2016,Rajpurkar2016,https://arxiv.org/abs/1606.05250,No
+3,GLUE,D2,Reading Comprehension,Core,2018,Wang2018,https://gluebenchmark.com/,No
+4,VQA,D2,Multimodal Knowledge,Core,2015,Antol2015,https://visualqa.org/,No
+5,AI2 ARC,D1,Scientific,Core,2018,Clark2018,https://allenai.org/data/arc,No
+6,HellaSwag,D1/D2,Logical and Abstract,Core,2019,Zellers2019,https://rowanzellers.com/hellaswag/,Yes
+7,PIQA,D1,Logical and Abstract,Core,2020,Bisk2020,https://yonatanbisk.com/piqa/,No
+8,WinoGrande,D1,Logical and Abstract,Core,2020,Sakaguchi2020,https://winogrande.allenai.org/,No
+9,SuperGLUE,D2,Reading Comprehension,Core,2019,Wang2019,https://super.gluebenchmark.com/,No
+10,CLUEWSC,D6,Multilingual / Cross-Cultural,Core,2020,Xu2020,https://github.com/CLUEbenchmark/CLUE,No
+11,HHH,D5,General Alignment,Core,2021,Askell2021,https://arxiv.org/abs/2112.00861,Yes
+12,DROP,D2,Reading Comprehension,Core,2019,Dua2019,https://allenai.org/data/drop,No
+13,TruthfulQA,D5,Truthfulness,Core,2022,Lin2022,https://arxiv.org/abs/2109.07958,Yes
+14,MMLU,D2,General Knowledge,Core,2020,Hendrycks2020,https://arxiv.org/abs/2009.03300,Yes
+15,BIG-bench,D6,Comprehensive Frameworks,Core,2022,Srivastava2022,https://github.com/google/BIG-bench,Yes
+16,BBH,D1,Logical and Abstract,Core,2022,Suzgun2022,https://arxiv.org/abs/2210.09261,No
+17,GSM8K,D1,Mathematical,Core,2021,Cobbe2021,https://github.com/openai/grade-school-math,Yes
+18,MATH,D1,Mathematical,Core,2021,Hendrycks2021math,https://arxiv.org/abs/2103.03874,No
+19,MATH-500,D1,Mathematical,Core,2023,Lightman2023,https://github.com/openai/prm800k,No
+20,HumanEval,D3,Code Generation,Core,2021,Chen2021,https://github.com/openai/human-eval,Yes
+21,MBPP,D3,Code Generation,Core,2021,Austin2021,https://arxiv.org/abs/2108.07732,No
+22,CodeXGLUE,D3,Code Generation,Core,2021,Lu2021,https://github.com/microsoft/CodeXGLUE,No
+23,DS-1000,D3,Code Generation,Core,2022,Lai2022,https://ds1000-code-gen.github.io/,No
+24,MMLU-Pro,D2,General Knowledge,Core,2024,Wang2024mmlu,https://arxiv.org/abs/2406.01574,Yes
+25,GPQA Diamond,D1/D2,Scientific / General Knowledge,Core,2023,Rein2023,https://arxiv.org/abs/2311.12022,Yes
+26,MT-Bench,D3,Language Generation,Core,2023,Zheng2023,https://arxiv.org/abs/2306.05685,Yes
+27,Chatbot Arena,D3,Language Generation,Core,2024,Chiang2024,https://lmarena.ai/,Yes
+28,IF-Eval,D3,Instruction Following,Core,2023,Zhou2023ifeval,https://arxiv.org/abs/2311.07911,No
+29,AlpacaEval 2.0,D3,Language Generation,Core,2024,Dubois2024,https://github.com/tatsu-lab/alpaca_eval,No
+30,ArenaHard,D3,Language Generation,Core,2024,Li2024arenahard,https://lmsys.org/blog/2024-04-19-arena-hard/,No
+31,AgentBench,D4,Complex Agentic Tasks,Emerging,2023,Liu2023agentbench,https://github.com/THUDM/AgentBench,Yes
+32,GAIA,D4,Complex Agentic Tasks,Emerging,2023,Mialon2023gaia,https://huggingface.co/gaia-benchmark,Yes
+33,WebArena,D4,Complex Agentic Tasks,Emerging,2023,Zhou2023webarena,https://webarena.dev/,Yes
+34,VisualWebArena,D4,Complex Agentic Tasks,Emerging,2024,Koh2024,https://jykoh.com/vwa,No
+35,SWE-bench,D3,Code Generation,Core,2023,Jimenez2023,https://arxiv.org/abs/2310.06770,No
+36,SWE-bench Verified,D3,Code Generation,Core,2024,OpenAI2024swe,https://openai.com/index/introducing-swe-bench-verified/,Yes
+37,SWE-bench Multimodal,D3,Code Generation,Emerging,2024,Yang2024swemm,https://arxiv.org/abs/2410.03859,No
+38,LiveCodeBench,D3,Code Generation,Core,2024,Jain2024,https://livecodebench.github.io/,Yes
+39,LiveBench,D6,Comprehensive Frameworks,Core,2024,White2024,https://livebench.ai/,Yes
+40,HELM,D6,Comprehensive Frameworks,Core,2022,Liang2022,https://crfm.stanford.edu/helm/,Yes
+41,C-Eval,D6,Multilingual / Cross-Cultural,Core,2023,Huang2023,https://cevalbenchmark.com/,Yes
+42,AGIEval,D2,General Knowledge,Core,2023,Zhong2023,https://arxiv.org/abs/2304.06364,No
+43,MMMU,D2,Multimodal Knowledge,Core,2023,Yue2024mmmu,https://mmmu-benchmark.github.io/,Yes
+44,MathVista,D2,Multimodal Knowledge,Core,2023,Lu2023mathvista,https://mathvista.github.io/,Yes
+45,MME,D2,Multimodal Knowledge,Core,2023,Fu2023mme,https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation,No
+46,OlympiadBench,D1,Mathematical,Core,2024,He2024,https://github.com/OpenBMB/OlympiadBench,Yes
+47,FrontierMath,D1,Mathematical,Emerging,2024,Glazer2024,https://epoch.ai/frontiermath,Yes
+48,AIME 2025,D1,Mathematical,Emerging,2025,MAA2025,https://maa.org/math-competitions/aime,Yes
+49,HLE,D2,General Knowledge / Specialized,Emerging,2025,Phan2026,https://lastexam.ai/,Yes
+50,SimpleBench,D6,Comprehensive Frameworks,Emerging,2024,SimpleBench2024,https://simple-bench.com/,No
+51,BBEH,D6,Comprehensive Frameworks,Emerging,2024,Kazemi2024,https://arxiv.org/abs/2502.19187,No
+52,BBQ,D5,Bias and Fairness,Core,2022,Parrish2022,https://github.com/nyu-mll/bbq,Yes
+53,MFTCXplain,D5,Bias and Fairness / Multilingual,Emerging,2025,Trager2025,https://aclanthology.org/2025.findings-emnlp.851/,No
+54,HarmBench,D5,Safety and Refusal,Core,2024,Mazeika2024,https://github.com/centerforaisafety/HarmBench,Yes
+55,AgentHarm,D5,Safety and Refusal,Emerging,2024,Andriushchenko2024,https://arxiv.org/abs/2410.09024,No
+56,SafetyBench,D5,Safety and Refusal,Emerging,2023,Zhang2023safety,https://github.com/thu-coai/SafetyBench,Yes
+57,CLadder,D1,Causal,Emerging,2023,Jin2023cladder,https://huggingface.co/datasets/causalnlp/CLadder,Yes
+58,QRData,D1,Causal,Emerging,2024,Liu2024qrdata,https://xxxiaol.github.io/QRData/,No
+59,Visual-RAG,D4,Information Retrieval,Emerging,2025,Wu2025visualrag,https://arxiv.org/abs/2502.16636,No
+60,OmniAI OCR,D4,Document Processing,Emerging,2024,OmniAI2025,https://huggingface.co/datasets/getomni-ai/ocr-benchmark,Yes
+61,GreekBarBench,D2/D6,Specialized Domains / Multilingual,Emerging,2025,Chlapanis2025,https://arxiv.org/abs/2505.17267,No
+62,OneEval,D2,Specialized Domains,Emerging,2025,Chen2025oneeval,https://arxiv.org/abs/2506.12577,No
+63,MULTI,D2/D6,Multimodal / Multilingual,Emerging,2025,Zhu2025multi,https://OpenDFM.github.io/MULTI-Benchmark,No

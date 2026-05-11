@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+title: "LLM Benchmark Quality Index: Reproducibility Package"
+message: >-
+  If you use this software or data, please cite both the
+  accompanying paper and this software repository.
+type: software
+authors:
+  - given-names: Rubén
+    family-names: Gómez
+    email: ruben.cicata@gmail.com
+    affiliation: "CICATA-Querétaro, Instituto Politécnico Nacional"
+  - given-names: Carlos E.
+    family-names: Miranda
+    affiliation: "Facultad de Informática, Universidad Autónoma de Querétaro"
+  - given-names: Julio-Alejandro
+    family-names: Romero-González
+    affiliation: "Facultad de Informática, Universidad Autónoma de Querétaro"
+  - given-names: Diana-Margarita
+    family-names: Córdova-Esparza
+    affiliation: "Facultad de Informática, Universidad Autónoma de Querétaro"
+  - given-names: Gendry
+    family-names: Alfonzo Francia
+    affiliation: "Facultad de Ingeniería, Universidad Autónoma de Querétaro"
+  - given-names: Edgar-Arturo
+    family-names: Chávez-Urbiola
+    affiliation: "CICATA-Querétaro, Instituto Politécnico Nacional"
+  - given-names: Alfonso
+    family-names: Ramirez-Pedraza
+    affiliation: "CICATA-Querétaro, Instituto Politécnico Nacional"
+  - given-names: Juan
+    family-names: Terven
+    email: jrtervens@ipn.mx
+    affiliation: "CICATA-Querétaro, Instituto Politécnico Nacional"
+repository-code: "https://github.com/Magnusvron/llm-benchmark-quality-index"
+abstract: >-
+  Reproducibility package for the Benchmark Quality Assurance Index (BQAI),
+  a quantitative AHP-weighted framework for assessing the scientific quality
+  of evaluation benchmarks used to measure Large Language Models. Contains
+  the operational scoring rubric, raw evaluator data, inter-rater reliability
+  analysis, AHP weight derivation, sensitivity analysis, and the model-by-benchmark
+  performance matrix with source traceability.
+keywords:
+  - large-language-models
+  - benchmarks
+  - evaluation
+  - reproducibility
+  - AHP
+  - quality-assessment
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+version: "1.0.0"
+date-released: "2026-05-11"
+preferred-citation:
+  type: article
+  title: >-
+    How to Measure the Intelligence of Large Language Models:
+    An Analysis of Datasets, Benchmarks, and Metrics
+  authors:
+    - given-names: Rubén
+      family-names: Gómez
+    - given-names: Carlos E.
+      family-names: Miranda
+    - given-names: Julio-Alejandro
+      family-names: Romero-González
+    - given-names: Diana-Margarita
+      family-names: Córdova-Esparza
+    - given-names: Gendry
+      family-names: Alfonzo Francia
+    - given-names: Edgar-Arturo
+      family-names: Chávez-Urbiola
+    - given-names: Alfonso
+      family-names: Ramirez-Pedraza
+    - given-names: Juan
+      family-names: Terven
+  year: 2026
+  notes: "Under review."
