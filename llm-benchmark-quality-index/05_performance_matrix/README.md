@@ -1,58 +1,91 @@
-# 05_performance_matrix/ — Model × benchmark performance matrix with source traceability
+# 05_performance_matrix/ — Source traceability for the performance matrix
 
-This directory contains the consolidated performance matrix (16 models × 10 benchmarks reported in the paper) with **complete source traceability** for every reported score.
+This directory provides per-cell traceability for every score reported in the performance matrix of the accompanying paper (Tables 4, 5, 6). Each of the 160 (model, benchmark) cells—including the 51 cells marked as not reported—is documented with its primary source, evaluation configuration, and access date.
 
-## Contents (populated in Session 3)
+## Contents
 
 | File | Description |
 |------|-------------|
-| `performance_matrix.csv` | The matrix in tidy long-format: model, benchmark, score, source_type, source_url, access_date, settings. |
-| `sources_detailed.csv` | Full per-score traceability: benchmark version, reasoning_effort setting, tool_use setting, shot count, temperature, notes. |
-| `README.md` | This file. |
+| `sources_detailed.csv` | The complete 160-row traceability table with 20 fields per cell. |
+| `performance_matrix_base.csv` | The reconstructed performance matrix in long format (model × benchmark, with scores or null markers). |
 
-## Schema of `sources_detailed.csv`
+## Source-priority hierarchy
 
-| Column | Description |
-|--------|-------------|
-| `model` | Model name (e.g., "GPT-5.4", "Claude Opus 4.6", "DeepSeek-R1") |
-| `model_version` | Specific version/checkpoint if applicable |
-| `benchmark` | Benchmark name (e.g., "MMLU-Pro", "SWE-bench Verified") |
-| `benchmark_version` | Specific version of the benchmark used |
-| `score` | Reported score (typically percentage) |
-| `source_type` | One of: `official_report`, `leaderboard`, `peer_reviewed`, `industry_blog` |
-| `source_url` | Direct URL to the source |
-| `access_date` | YYYY-MM-DD when the score was retrieved |
-| `reasoning_effort` | "high", "medium", "low", "extended thinking", or "default" |
-| `tool_use` | "yes" / "no" and which tools (e.g., "yes - Python interpreter") |
-| `shot_count` | "0-shot", "5-shot", "few-shot" with k value |
-| `temperature` | Reported sampling temperature, if available |
-| `notes` | Free-text caveats (e.g., "score with parallel test-time compute") |
+Every cell is classified by source type using the four-tier hierarchy documented in Appendix B of the paper:
 
-## Source-type hierarchy
+1. **Official technical reports and model system cards** from the model developer (`source_type: official_report`) — the primary authoritative source for a model's own claimed performance. 93 of the 109 reported scores (85%) come from this tier.
 
-When multiple sources report a score for the same model-benchmark pair, we prioritize in this order:
+2. **Established public leaderboards** with documented methodology (`source_type: leaderboard`) — used as primary source when the benchmark is structurally external to the developer (all Arena Elo Rank values come from LMArena, 16 of 109 reported scores) and as cross-reference for corroboration.
 
-1. **`official_report`** (most authoritative): Official technical reports or model release announcements from the developer (OpenAI, Anthropic, Google DeepMind, Meta, xAI, DeepSeek, Qwen, Moonshot AI).
-2. **`leaderboard`**: Established public leaderboards with documented methodology (Chatbot Arena/LMArena, HELM, Artificial Analysis, LLM-Stats, Papers with Code).
-3. **`peer_reviewed`**: Peer-reviewed papers with independent evaluation (third-party verification).
-4. **`industry_blog`** (lowest authority): Vendor blog posts or marketing materials not formally peer-reviewed.
+3. **Peer-reviewed publications with independent third-party evaluation** (`source_type: peer_reviewed`) — take precedence over vendor blog posts when independent corroboration matters.
 
-Each score's source type is documented to allow readers to weight the evidence appropriately.
+4. **Vendor blog posts** (`source_type: vendor_blog`) — used only when no higher-priority source is available, always flagged in `notes`. No score in the current matrix relies exclusively on tier-(iv) sources.
 
-## How this addresses reviewer comments
+Cells that cannot be traced to a public document are recorded as `source_type: not_reported` rather than estimated.
 
-This addresses **Reviewer 2, Comment 2**:
+## Field reference
 
-> "every reported score should be traceable to a precise source. The manuscript should provide exact references for each model-benchmark score, including the benchmark version, date of access, evaluation setting, reasoning-effort setting where relevant, tool-use setting, and whether the score comes from an official report, a leaderboard, or an independent evaluation."
+Each row in `sources_detailed.csv` has the following 20 fields:
 
-The `sources_detailed.csv` provides exactly this level of granularity for all ~160 cells in the performance matrix.
+**Model identification:**
+- `model` — display name as in the paper (e.g., "Claude Opus 4.6")
+- `developer` — organization (OpenAI, Anthropic, Google DeepMind, Meta, DeepSeek, Alibaba/Qwen, Moonshot AI, xAI)
+- `model_category` — `frontier_proprietary` | `longitudinal_baseline` | `open_source`
+- `extended_test_time_compute` — boolean; `true` for models marked with † in the paper
 
-## Limitations acknowledged
+**Benchmark identification:**
+- `benchmark` — name as in the paper (e.g., "GPQA Diamond")
+- `benchmark_metric` — accuracy, pass@1, resolved_pct, rank
+- `benchmark_domain` — D1_Reasoning, D2_Knowledge, D3_Code, D1_Math, D2_Expert, D3_Language
+- `benchmark_version` — version string where applicable (e.g., "v1.0, 12,032 questions, 10 options" for MMLU-Pro)
+- `benchmark_canonical_url` — authoritative URL for the benchmark (typically GitHub or paper)
 
-- **Rapidly evolving landscape:** Scores reflect publicly reported values as of March 2026. Future model releases will require updates.
-- **Heterogeneous reporting:** Frontier model providers report benchmarks inconsistently. Some scores are missing because the model developer never published them, not because we omitted them.
-- **Reasoning-effort settings:** Different providers use different terminology ("high", "thinking mode", "extended test-time compute"). We document the provider's terminology and explain equivalences where possible.
+**Score and source:**
+- `score` — numeric value as reported (blank if `reported=no`)
+- `reported` — yes / no
+- `source_type` — `official_report` | `leaderboard` | `peer_reviewed` | `vendor_blog` | `not_reported`
+- `source_url` — URL of the primary public document for this score
+- `cross_reference_url` — independent corroborating leaderboard URL when available
 
-## Status
+**Evaluation configuration:**
+- `reasoning_effort` — preserved using each developer's original terminology (e.g., "high" for OpenAI, "extended_thinking" for Anthropic/Google, "adaptive_max" for newer Claude, "thinking_mode" for Qwen/DeepSeek)
+- `tool_use` — default / none / varies_per_benchmark / etc.
+- `shot_count` — 0-shot, 5-shot, avg@8, avg@32, etc.
+- `temperature` — value or "default"
 
-🟡 **To be built in Session 3.** This is the most labor-intensive component (~160 cells × verification effort each). The structure and schema are documented above; data compilation pending.
+**Audit trail:**
+- `access_date` — 2026-05-10 for the current matrix snapshot
+- `notes` — caveats, methodological notes, or specific configuration details from the primary source
+
+## Headline statistics
+
+- **160 total cells** (16 models × 10 benchmarks)
+- **109 reported cells** (68% coverage)
+- **51 not-reported cells** (32%) explicitly documented rather than estimated
+- **93 official-report sources** (85% of reported)
+- **16 leaderboard sources** (15% of reported, primarily Arena Elo Rank)
+- **0 vendor-blog-only sources**
+
+## Use cases
+
+The CSV is structured to support multiple workflows:
+
+1. **Verification:** Any reader can check a specific cell of the performance matrix by looking up the corresponding row in `sources_detailed.csv` and following the `source_url`.
+
+2. **Methodological audit:** The `reasoning_effort`, `tool_use`, and `shot_count` fields allow assessment of whether scores are comparable across models—for instance, identifying that Anthropic's "adaptive_max" trial-averaging may not be directly comparable to OpenAI's single-pass "high" reasoning.
+
+3. **Update propagation:** As newer model releases or corrected reports become available, individual cells can be updated by editing the corresponding row, preserving the audit trail in `access_date` and `notes`.
+
+4. **Extension:** Researchers can extend the matrix to additional models or benchmarks by appending rows with the same schema.
+
+## Acknowledged limitations
+
+We do not independently re-run every model on every benchmark, as closed-weight frontier models are typically accessible only through paid APIs and many reported configurations require substantial compute. Three mitigations are documented in Appendix B of the paper:
+
+- Leaderboard cross-references (Artificial Analysis, LMArena, LiveCodeBench) are recorded where available.
+- The complete configuration fields preserve methodological detail that would be lost in an unsourced score.
+- Cells without a traceable primary source are excluded rather than estimated.
+
+## Regenerating
+
+The scripts that produced these CSVs are in this directory's parent workspace (not committed to the repository to keep the artifact-vs-tool distinction clean); the structure can be regenerated from the paper's Tables 4–6 plus the source list documented in Appendix B.

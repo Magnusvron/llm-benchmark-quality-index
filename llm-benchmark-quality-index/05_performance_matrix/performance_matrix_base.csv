@@ -1,0 +1,161 @@
+model,model_category,developer,extended_test_time_compute,benchmark,benchmark_metric,benchmark_domain,score,reported
+GPT-5.4,frontier_proprietary,OpenAI,True,MMLU,accuracy,D2_Knowledge,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,MMLU-Pro,accuracy,D2_Knowledge,87.5,True
+GPT-5.4,frontier_proprietary,OpenAI,True,GPQA Diamond,accuracy,D1_Reasoning,94.0,True
+GPT-5.4,frontier_proprietary,OpenAI,True,MATH-500,accuracy,D1_Math,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,AIME 2025,accuracy,D1_Math,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,HumanEval,pass@1,D3_Code,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,LiveCodeBench,pass@1,D3_Code,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,SWE-bench Verified,resolved_pct,D3_Code,,False
+GPT-5.4,frontier_proprietary,OpenAI,True,HLE,accuracy,D2_Expert,41.6,True
+GPT-5.4,frontier_proprietary,OpenAI,True,Arena Elo Rank,rank,D3_Language,6,True
+GPT-5.2,frontier_proprietary,OpenAI,True,MMLU,accuracy,D2_Knowledge,,False
+GPT-5.2,frontier_proprietary,OpenAI,True,MMLU-Pro,accuracy,D2_Knowledge,87.4,True
+GPT-5.2,frontier_proprietary,OpenAI,True,GPQA Diamond,accuracy,D1_Reasoning,90.3,True
+GPT-5.2,frontier_proprietary,OpenAI,True,MATH-500,accuracy,D1_Math,,False
+GPT-5.2,frontier_proprietary,OpenAI,True,AIME 2025,accuracy,D1_Math,99.0,True
+GPT-5.2,frontier_proprietary,OpenAI,True,HumanEval,pass@1,D3_Code,,False
+GPT-5.2,frontier_proprietary,OpenAI,True,LiveCodeBench,pass@1,D3_Code,88.9,True
+GPT-5.2,frontier_proprietary,OpenAI,True,SWE-bench Verified,resolved_pct,D3_Code,80.0,True
+GPT-5.2,frontier_proprietary,OpenAI,True,HLE,accuracy,D2_Expert,35.4,True
+GPT-5.2,frontier_proprietary,OpenAI,True,Arena Elo Rank,rank,D3_Language,36,True
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,MMLU,accuracy,D2_Knowledge,,False
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,MMLU-Pro,accuracy,D2_Knowledge,91.2,True
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,GPQA Diamond,accuracy,D1_Reasoning,94.1,True
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,MATH-500,accuracy,D1_Math,,False
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,AIME 2025,accuracy,D1_Math,,False
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,HumanEval,pass@1,D3_Code,,False
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,LiveCodeBench,pass@1,D3_Code,,False
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,SWE-bench Verified,resolved_pct,D3_Code,80.6,True
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,HLE,accuracy,D2_Expert,45.9,True
+Gemini 3.1 Pro,frontier_proprietary,Google DeepMind,True,Arena Elo Rank,rank,D3_Language,3,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,MMLU,accuracy,D2_Knowledge,,False
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,MMLU-Pro,accuracy,D2_Knowledge,90.1,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,GPQA Diamond,accuracy,D1_Reasoning,90.8,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,MATH-500,accuracy,D1_Math,,False
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,AIME 2025,accuracy,D1_Math,95.7,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,HumanEval,pass@1,D3_Code,,False
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,LiveCodeBench,pass@1,D3_Code,91.7,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,SWE-bench Verified,resolved_pct,D3_Code,76.2,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,HLE,accuracy,D2_Expert,37.2,True
+Gemini 3.0 Pro,frontier_proprietary,Google DeepMind,True,Arena Elo Rank,rank,D3_Language,5,True
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,MMLU,accuracy,D2_Knowledge,,False
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,MMLU-Pro,accuracy,D2_Knowledge,89.1,True
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,GPQA Diamond,accuracy,D1_Reasoning,89.6,True
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,MATH-500,accuracy,D1_Math,,False
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,AIME 2025,accuracy,D1_Math,,False
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,HumanEval,pass@1,D3_Code,,False
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,LiveCodeBench,pass@1,D3_Code,,False
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,SWE-bench Verified,resolved_pct,D3_Code,80.8,True
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,HLE,accuracy,D2_Expert,36.7,True
+Claude Opus 4.6,frontier_proprietary,Anthropic,True,Arena Elo Rank,rank,D3_Language,1,True
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,MMLU,accuracy,D2_Knowledge,,False
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,MMLU-Pro,accuracy,D2_Knowledge,87.3,True
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,GPQA Diamond,accuracy,D1_Reasoning,87.5,True
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,MATH-500,accuracy,D1_Math,,False
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,AIME 2025,accuracy,D1_Math,,False
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,HumanEval,pass@1,D3_Code,,False
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,LiveCodeBench,pass@1,D3_Code,,False
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,SWE-bench Verified,resolved_pct,D3_Code,79.6,True
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,HLE,accuracy,D2_Expert,30.0,True
+Claude Sonnet 4.6,frontier_proprietary,Anthropic,False,Arena Elo Rank,rank,D3_Language,17,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,MMLU,accuracy,D2_Knowledge,,False
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,MMLU-Pro,accuracy,D2_Knowledge,87.4,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,GPQA Diamond,accuracy,D1_Reasoning,,False
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,MATH-500,accuracy,D1_Math,,False
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,AIME 2025,accuracy,D1_Math,88.0,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,HumanEval,pass@1,D3_Code,93.7,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,LiveCodeBench,pass@1,D3_Code,71.4,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,SWE-bench Verified,resolved_pct,D3_Code,,False
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,HLE,accuracy,D2_Expert,17.3,True
+Claude Sonnet 4.5,frontier_proprietary,Anthropic,True,Arena Elo Rank,rank,D3_Language,24,True
+Grok 4.1,frontier_proprietary,xAI,True,MMLU,accuracy,D2_Knowledge,,False
+Grok 4.1,frontier_proprietary,xAI,True,MMLU-Pro,accuracy,D2_Knowledge,84.2,True
+Grok 4.1,frontier_proprietary,xAI,True,GPQA Diamond,accuracy,D1_Reasoning,87.7,True
+Grok 4.1,frontier_proprietary,xAI,True,MATH-500,accuracy,D1_Math,,False
+Grok 4.1,frontier_proprietary,xAI,True,AIME 2025,accuracy,D1_Math,89.3,True
+Grok 4.1,frontier_proprietary,xAI,True,HumanEval,pass@1,D3_Code,,False
+Grok 4.1,frontier_proprietary,xAI,True,LiveCodeBench,pass@1,D3_Code,82.2,True
+Grok 4.1,frontier_proprietary,xAI,True,SWE-bench Verified,resolved_pct,D3_Code,,False
+Grok 4.1,frontier_proprietary,xAI,True,HLE,accuracy,D2_Expert,17.6,True
+Grok 4.1,frontier_proprietary,xAI,True,Arena Elo Rank,rank,D3_Language,11,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,MMLU,accuracy,D2_Knowledge,,False
+GPT-5 (High),frontier_proprietary,OpenAI,True,MMLU-Pro,accuracy,D2_Knowledge,87.1,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,GPQA Diamond,accuracy,D1_Reasoning,85.4,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,MATH-500,accuracy,D1_Math,99.4,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,AIME 2025,accuracy,D1_Math,89.3,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,HumanEval,pass@1,D3_Code,93.4,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,LiveCodeBench,pass@1,D3_Code,84.6,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,SWE-bench Verified,resolved_pct,D3_Code,74.9,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,HLE,accuracy,D2_Expert,26.5,True
+GPT-5 (High),frontier_proprietary,OpenAI,True,Arena Elo Rank,rank,D3_Language,41,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,MMLU,accuracy,D2_Knowledge,85.3,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,MMLU-Pro,accuracy,D2_Knowledge,84.0,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,GPQA Diamond,accuracy,D1_Reasoning,77.2,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,MATH-500,accuracy,D1_Math,94.7,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,AIME 2025,accuracy,D1_Math,56.3,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,HumanEval,pass@1,D3_Code,,False
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,LiveCodeBench,pass@1,D3_Code,47.3,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,SWE-bench Verified,resolved_pct,D3_Code,70.3,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,HLE,accuracy,D2_Expert,10.3,True
+Claude 3.7 Sonnet,longitudinal_baseline,Anthropic,True,Arena Elo Rank,rank,D3_Language,106,True
+Llama 3.1 405B,open_source,Meta,False,MMLU,accuracy,D2_Knowledge,84.5,True
+Llama 3.1 405B,open_source,Meta,False,MMLU-Pro,accuracy,D2_Knowledge,61.6,True
+Llama 3.1 405B,open_source,Meta,False,GPQA Diamond,accuracy,D1_Reasoning,72.7,True
+Llama 3.1 405B,open_source,Meta,False,MATH-500,accuracy,D1_Math,88.9,True
+Llama 3.1 405B,open_source,Meta,False,AIME 2025,accuracy,D1_Math,69.7,True
+Llama 3.1 405B,open_source,Meta,False,HumanEval,pass@1,D3_Code,89.0,True
+Llama 3.1 405B,open_source,Meta,False,LiveCodeBench,pass@1,D3_Code,68.6,True
+Llama 3.1 405B,open_source,Meta,False,SWE-bench Verified,resolved_pct,D3_Code,,False
+Llama 3.1 405B,open_source,Meta,False,HLE,accuracy,D2_Expert,10.3,True
+Llama 3.1 405B,open_source,Meta,False,Arena Elo Rank,rank,D3_Language,162,True
+DeepSeek-V3.2,open_source,DeepSeek,True,MMLU,accuracy,D2_Knowledge,,False
+DeepSeek-V3.2,open_source,DeepSeek,True,MMLU-Pro,accuracy,D2_Knowledge,85.0,True
+DeepSeek-V3.2,open_source,DeepSeek,True,GPQA Diamond,accuracy,D1_Reasoning,84.0,True
+DeepSeek-V3.2,open_source,DeepSeek,True,MATH-500,accuracy,D1_Math,,False
+DeepSeek-V3.2,open_source,DeepSeek,True,AIME 2025,accuracy,D1_Math,92.0,True
+DeepSeek-V3.2,open_source,DeepSeek,True,HumanEval,pass@1,D3_Code,,False
+DeepSeek-V3.2,open_source,DeepSeek,True,LiveCodeBench,pass@1,D3_Code,86.2,True
+DeepSeek-V3.2,open_source,DeepSeek,True,SWE-bench Verified,resolved_pct,D3_Code,73.1,True
+DeepSeek-V3.2,open_source,DeepSeek,True,HLE,accuracy,D2_Expert,22.2,True
+DeepSeek-V3.2,open_source,DeepSeek,True,Arena Elo Rank,rank,D3_Language,52,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,MMLU,accuracy,D2_Knowledge,,False
+Qwen 3 235B,open_source,Alibaba/Qwen,True,MMLU-Pro,accuracy,D2_Knowledge,84.5,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,GPQA Diamond,accuracy,D1_Reasoning,77.2,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,MATH-500,accuracy,D1_Math,98.4,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,AIME 2025,accuracy,D1_Math,88.3,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,HumanEval,pass@1,D3_Code,,False
+Qwen 3 235B,open_source,Alibaba/Qwen,True,LiveCodeBench,pass@1,D3_Code,64.6,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,SWE-bench Verified,resolved_pct,D3_Code,,False
+Qwen 3 235B,open_source,Alibaba/Qwen,True,HLE,accuracy,D2_Expert,10.1,True
+Qwen 3 235B,open_source,Alibaba/Qwen,True,Arena Elo Rank,rank,D3_Language,65,True
+Qwen 3.5,open_source,Alibaba/Qwen,True,MMLU,accuracy,D2_Knowledge,,False
+Qwen 3.5,open_source,Alibaba/Qwen,True,MMLU-Pro,accuracy,D2_Knowledge,87.8,True
+Qwen 3.5,open_source,Alibaba/Qwen,True,GPQA Diamond,accuracy,D1_Reasoning,89.3,True
+Qwen 3.5,open_source,Alibaba/Qwen,True,MATH-500,accuracy,D1_Math,,False
+Qwen 3.5,open_source,Alibaba/Qwen,True,AIME 2025,accuracy,D1_Math,,False
+Qwen 3.5,open_source,Alibaba/Qwen,True,HumanEval,pass@1,D3_Code,,False
+Qwen 3.5,open_source,Alibaba/Qwen,True,LiveCodeBench,pass@1,D3_Code,,False
+Qwen 3.5,open_source,Alibaba/Qwen,True,SWE-bench Verified,resolved_pct,D3_Code,76.4,True
+Qwen 3.5,open_source,Alibaba/Qwen,True,HLE,accuracy,D2_Expert,27.3,True
+Qwen 3.5,open_source,Alibaba/Qwen,True,Arena Elo Rank,rank,D3_Language,27,True
+Kimi K2 Think,open_source,Moonshot AI,True,MMLU,accuracy,D2_Knowledge,88.3,True
+Kimi K2 Think,open_source,Moonshot AI,True,MMLU-Pro,accuracy,D2_Knowledge,81.0,True
+Kimi K2 Think,open_source,Moonshot AI,True,GPQA Diamond,accuracy,D1_Reasoning,83.8,True
+Kimi K2 Think,open_source,Moonshot AI,True,MATH-500,accuracy,D1_Math,97.1,True
+Kimi K2 Think,open_source,Moonshot AI,True,AIME 2025,accuracy,D1_Math,94.7,True
+Kimi K2 Think,open_source,Moonshot AI,True,HumanEval,pass@1,D3_Code,93.3,True
+Kimi K2 Think,open_source,Moonshot AI,True,LiveCodeBench,pass@1,D3_Code,85.3,True
+Kimi K2 Think,open_source,Moonshot AI,True,SWE-bench Verified,resolved_pct,D3_Code,71.3,True
+Kimi K2 Think,open_source,Moonshot AI,True,HLE,accuracy,D2_Expert,22.3,True
+Kimi K2 Think,open_source,Moonshot AI,True,Arena Elo Rank,rank,D3_Language,45,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,MMLU,accuracy,D2_Knowledge,90.5,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,MMLU-Pro,accuracy,D2_Knowledge,83.4,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,GPQA Diamond,accuracy,D1_Reasoning,81.3,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,MATH-500,accuracy,D1_Math,,False
+DeepSeek-R1 0528,open_source,DeepSeek,True,AIME 2025,accuracy,D1_Math,76.0,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,HumanEval,pass@1,D3_Code,,False
+DeepSeek-R1 0528,open_source,DeepSeek,True,LiveCodeBench,pass@1,D3_Code,77.0,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,SWE-bench Verified,resolved_pct,D3_Code,44.6,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,HLE,accuracy,D2_Expert,14.6,True
+DeepSeek-R1 0528,open_source,DeepSeek,True,Arena Elo Rank,rank,D3_Language,56,True
