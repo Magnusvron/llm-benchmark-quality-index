@@ -1,0 +1,472 @@
+{
+  "evaluators": [
+    "GomezOlvera",
+    "Miranda",
+    "Terven"
+  ],
+  "n_benchmarks": 30,
+  "per_dimension": {
+    "Q1": {
+      "icc": {
+        "ICC2k": 0.7444966198291328,
+        "ICC2k_CI": [
+          0.54,
+          0.87
+        ],
+        "ICC21": 0.4927156114515032,
+        "ICC21_CI": [
+          0.28,
+          0.69
+        ],
+        "F": 4.0493170125953535,
+        "p": 2.923705468251461e-06
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.3832154225225511,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.7619047619047619
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.21052631578947367
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.17721518987341778
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.8959352552553725,
+          "pearson_p": 2.241270492292591e-11,
+          "spearman_r": 0.8713802502819332,
+          "spearman_p": 3.718524972712492e-10,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.605777145628026,
+          "pearson_p": 0.0003889354588161947,
+          "spearman_r": 0.6495963903456387,
+          "spearman_p": 0.00010257125409082362,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.22658525127672477,
+          "pearson_p": 0.22856600012309736,
+          "spearman_r": 0.33038659550006216,
+          "spearman_p": 0.07455963758357294,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.06022222222222222
+    },
+    "Q2": {
+      "icc": {
+        "ICC2k": 0.8024593310619511,
+        "ICC2k_CI": [
+          0.64,
+          0.9
+        ],
+        "ICC21": 0.5752061254604931,
+        "ICC21_CI": [
+          0.37,
+          0.75
+        ],
+        "F": 5.249939640383761,
+        "p": 4.175785129164962e-08
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.4609667307108909,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.5161290322580645
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.5909090909090908
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.27586206896551724
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.9177552934804538,
+          "pearson_p": 9.543344802771332e-13,
+          "spearman_r": 0.921331600754134,
+          "spearman_p": 5.237958086373231e-13,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.676157493346925,
+          "pearson_p": 4.108514172242159e-05,
+          "spearman_r": 0.77981993385915,
+          "spearman_p": 3.7821897270575006e-07,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.34970948155896114,
+          "pearson_p": 0.05817776410896066,
+          "spearman_r": 0.5725818453409223,
+          "spearman_p": 0.0009444654743005659,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.04577777777777777
+    },
+    "Q3": {
+      "icc": {
+        "ICC2k": 0.8275973168019242,
+        "ICC2k_CI": [
+          0.69,
+          0.91
+        ],
+        "ICC21": 0.6154030445459505,
+        "ICC21_CI": [
+          0.42,
+          0.78
+        ],
+        "F": 5.802814475853079,
+        "p": 6.96959849204173e-09
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.5804065604847581,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.6946564885496183
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.6969696969696969
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.34959349593495936
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.8644575710323676,
+          "pearson_p": 7.408931290308661e-10,
+          "spearman_r": 0.9250956268758098,
+          "spearman_p": 2.6997408572079816e-13,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.7682221479561431,
+          "pearson_p": 7.177247538755194e-07,
+          "spearman_r": 0.7682545583090857,
+          "spearman_p": 7.16477666337079e-07,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.3575329803767784,
+          "pearson_p": 0.0524111832149882,
+          "spearman_r": 0.5688540674492705,
+          "spearman_p": 0.0010373893072108584,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.059555555555555556
+    },
+    "Q4": {
+      "icc": {
+        "ICC2k": 0.8841296897051006,
+        "ICC2k_CI": [
+          0.79,
+          0.94
+        ],
+        "ICC21": 0.717788854995908,
+        "ICC21_CI": [
+          0.55,
+          0.84
+        ],
+        "F": 8.578194957191114,
+        "p": 3.118196711165412e-12
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.5433256427158867,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.775
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.5135135135135135
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.3414634146341464
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.9037077197442532,
+          "pearson_p": 7.9422903698816e-12,
+          "spearman_r": 0.8141192211516882,
+          "spearman_p": 4.4392028979434123e-08,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.8060755586556317,
+          "pearson_p": 7.616671559139621e-08,
+          "spearman_r": 0.8642570248131815,
+          "spearman_p": 7.554107186652922e-10,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.4984867634480329,
+          "pearson_p": 0.005052354380452662,
+          "spearman_r": 0.49222064512195557,
+          "spearman_p": 0.005727365085990878,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.06422222222222221
+    },
+    "Q5": {
+      "icc": {
+        "ICC2k": 0.8521422269901959,
+        "ICC2k_CI": [
+          0.65,
+          0.93
+        ],
+        "ICC21": 0.6576614980100736,
+        "ICC21_CI": [
+          0.38,
+          0.82
+        ],
+        "F": 9.864872139326202,
+        "p": 1.5423150473147154e-13
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.6450762905208519,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.810126582278481
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.7098976109215017
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.41520467836257313
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.905999384885374,
+          "pearson_p": 5.751702611769036e-12,
+          "spearman_r": 0.9293498100330508,
+          "spearman_p": 1.22289131178842e-13,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.843806102704583,
+          "pearson_p": 4.719209582900122e-09,
+          "spearman_r": 0.8110776677097,
+          "spearman_p": 5.4608355958120795e-08,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.5447146285133063,
+          "pearson_p": 0.0018562473818799785,
+          "spearman_r": 0.570336233989815,
+          "spearman_p": 0.0009995278057368998,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.1617777777777778
+    },
+    "Q6": {
+      "icc": {
+        "ICC2k": 0.9281627145152755,
+        "ICC2k_CI": [
+          0.86,
+          0.96
+        ],
+        "ICC21": 0.8115619058737205,
+        "ICC21_CI": [
+          0.67,
+          0.9
+        ],
+        "F": 16.515127764013563,
+        "p": 9.521889637936067e-19
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.6713297262327543,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.6623794212218649
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.8086734693877551
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.5429362880886426
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.8897056005222717,
+          "pearson_p": 4.8614671958558984e-11,
+          "spearman_r": 0.8732331384253953,
+          "spearman_p": 3.0712524660120843e-10,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.9548682699202155,
+          "pearson_p": 2.7011145339409175e-16,
+          "spearman_r": 0.9375496197844494,
+          "spearman_p": 2.2884888809051415e-14,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.7360904531295422,
+          "pearson_p": 3.5514914685261677e-06,
+          "spearman_r": 0.7380129156669761,
+          "spearman_p": 3.248461382390195e-06,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.08688888888888888
+    },
+    "Q7": {
+      "icc": {
+        "ICC2k": 0.9426613585588566,
+        "ICC2k_CI": [
+          0.89,
+          0.97
+        ],
+        "ICC21": 0.8456809634815212,
+        "ICC21_CI": [
+          0.72,
+          0.92
+        ],
+        "F": 20.895793135501247,
+        "p": 2.7115716046314176e-21
+      },
+      "weighted_kappa": {
+        "avg_weighted_kappa": 0.5016276083136024,
+        "pairs": [
+          [
+            "GomezOlvera",
+            "Miranda",
+            0.35185185185185175
+          ],
+          [
+            "GomezOlvera",
+            "Terven",
+            0.8267898383371824
+          ],
+          [
+            "Miranda",
+            "Terven",
+            0.3262411347517731
+          ]
+        ]
+      },
+      "pairwise_correlations": [
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Miranda",
+          "pearson_r": 0.9059942214868695,
+          "pearson_p": 5.755939238541238e-12,
+          "spearman_r": 0.6669710266732646,
+          "spearman_p": 5.6955919066688096e-05,
+          "n": 30
+        },
+        {
+          "rater_a": "GomezOlvera",
+          "rater_b": "Terven",
+          "pearson_r": 0.9809708887630059,
+          "pearson_p": 1.7799799684395452e-21,
+          "spearman_r": 0.9293497149349642,
+          "spearman_p": 1.22291362868228e-13,
+          "n": 30
+        },
+        {
+          "rater_a": "Miranda",
+          "rater_b": "Terven",
+          "pearson_r": 0.8622663017663929,
+          "pearson_p": 9.143726698329462e-10,
+          "spearman_r": 0.590078243592295,
+          "spearman_p": 0.0005987974151452041,
+          "n": 30
+        }
+      ],
+      "mean_abs_diff": 0.064
+    }
+  }
+}
