@@ -421,7 +421,7 @@ def main() -> None:
     print(f"JSON results:    {json_path}")
 
     md_path = args.output_dir / "sensitivity_report.md"
-    md_path.write_text(build_markdown_summary(results))
+    md_path.write_text(build_markdown_summary(results), encoding='utf-8')
     print(f"Markdown report: {md_path}")
 
 

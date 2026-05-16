@@ -483,7 +483,7 @@ def main() -> None:
 
     # Markdown report
     md_path = args.output_dir / "iaa_report.md"
-    md_path.write_text(build_text_report(results, long_df))
+    md_path.write_text(build_text_report(results, long_df), encoding='utf-8')
     print(f"Markdown report:   {md_path}")
 
 
